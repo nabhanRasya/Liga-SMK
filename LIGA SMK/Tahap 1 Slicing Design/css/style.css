@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+nav {
+  width: 70%;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  padding: 17px 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+nav ul .active {
+  color: #3a10e5;
+}
+
+nav img {
+  width: 5.5rem;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 0.7rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  color: rgb(28, 28, 28);
+}
+
+nav ul li img {
+  width: 0.5rem;
+}
+
+.hero {
+  background-color: hsl(228, 100%, 97%);
+}
+
+.hero-main {
+  display: flex;
+  min-height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-main .avatar img {
+  width: 19rem;
+  margin-top: -3.2rem;
+}
+
+.hero-text {
+  padding-right: 10rem;
+  padding-bottom: 3rem;
+}
+
+.hero-text h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.hero-text p {
+  font-size: 0.7rem;
+  padding: 1.5rem 0;
+  color: gray;
+}
+
+.hero-main button {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 0.6rem 0.8rem;
+  background-color: #3a10e5;
+  border-radius: 0.2rem;
+  font-size: 0.5rem;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.hero-main button img {
+  width: 0.8rem;
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  background-color: #fcc41c;
+}
+
+.feature .feature-main {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  gap: 2rem;
+}
+
+.feature .feature-content {
+  display: flex;
+}
+
+.feature .feature-content img {
+  width: 2.8rem;
+  margin-right: 1rem;
+}
+
+.feature .feature-content .feature-text {
+  padding-top: 0.5rem;
+}
+
+.feature .feature-content .feature-text h3 {
+  font-size: 0.9rem;
+  padding-bottom: 0.2rem;
+}
+
+.feature .feature-content .feature-text p {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
